@@ -8,6 +8,7 @@ A decentralized application that allows users to submit and view governance prop
 - Submit new governance proposals
 - View all submitted proposals
 - Real-time updates when new proposals are created
+- Dark mode UI with Material UI
 
 ## Prerequisites
 
