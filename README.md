@@ -24,34 +24,34 @@ https://youtu.be/DbOfFv40adc
 ## Setup
 
 1. Clone the repository:
-\`\`\`bash
+```bash
 git clone <repository-url>
 cd proposals-blockchain
-\`\`\`
+```
 
 2. Install dependencies:
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 3. Create a .env file in the root directory with the following variables:
-\`\`\`
+```
 SEPOLIA_RPC_URL=your_alchemy_sepolia_url
 PRIVATE_KEY=your_wallet_private_key
 NEXT_PUBLIC_CONTRACT_ADDRESS=deployed_contract_address
-\`\`\`
+```
 
 4. Deploy the smart contract:
-\`\`\`bash
+```bash
 npm run deploy
-\`\`\`
+```
 
 5. Copy the deployed contract address and update NEXT_PUBLIC_CONTRACT_ADDRESS in your .env file
 
 6. Start the development server:
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 7. Open [http://localhost:3000](http://localhost:3000) in your browser
 
