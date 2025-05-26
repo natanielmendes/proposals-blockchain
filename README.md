@@ -72,4 +72,4 @@ The smart contract is deployed on the Goerli testnet and includes the following 
 - Ethers.js
 - Hardhat
 - Solidity
-- Tailwind CSS
+- Material UI
