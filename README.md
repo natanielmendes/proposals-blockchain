@@ -2,6 +2,11 @@
 
 A decentralized application that allows users to submit and view governance proposals on the Ethereum blockchain (Sepolia testnet).
 
+## Instructions to end users
+
+This video goes through the proposal submission and listing process for end users:
+https://youtu.be/DbOfFv40adc
+
 ## Features
 
 - Connect with MetaMask wallet
