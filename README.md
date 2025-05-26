@@ -55,6 +55,31 @@ npm run dev
 
 7. Open [http://localhost:3000](http://localhost:3000) in your browser
 
+## Docker Setup
+
+To run the application using Docker:
+
+1. Make sure you have Docker and Docker Compose installed on your system
+
+2. Create a `.env` file in the root directory with your environment variables:
+```
+SEPOLIA_RPC_URL=your_alchemy_sepolia_url
+PRIVATE_KEY=your_wallet_private_key
+NEXT_PUBLIC_CONTRACT_ADDRESS=deployed_contract_address
+```
+
+3. Build and start the containers:
+```bash
+docker-compose up --build
+```
+
+4. Access the application at [http://localhost:3000](http://localhost:3000)
+
+To stop the containers:
+```bash
+docker-compose down
+```
+
 ## Usage
 
 1. Connect your MetaMask wallet by clicking the "Connect Wallet" button

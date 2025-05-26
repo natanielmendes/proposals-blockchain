@@ -1,0 +1,14 @@
+.git
+.gitignore
+node_modules
+.next
+.env
+.env.local
+README.md
+docker-compose.yml
+Dockerfile
+.dockerignore
+artifacts
+cache
+coverage
+coverage.json 
