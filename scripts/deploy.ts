@@ -1,9 +1,9 @@
-const { ethers: ethersLib } = require("hardhat");
+import { ethers } from "hardhat";
 
 async function main() {
   console.log("Deploying ProposalContract...");
 
-  const ProposalContract = await ethersLib.getContractFactory("ProposalContract");
+  const ProposalContract = await ethers.getContractFactory("ProposalContract");
   const proposalContract = await ProposalContract.deploy();
 
   await proposalContract.deployed();
